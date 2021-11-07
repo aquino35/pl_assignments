@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 
-int main(){
+int main()
+{
+
 	//Allows you to generate random number
 	srand(time(NULL));
 
@@ -31,7 +33,6 @@ int main(){
 	a1 = (int*)realloc(a1, sizeof(int)*n2);
 
 	//If the new array is a larger size, set all new members to 0. Reason: dont want to use uninitialized variables.
-
 	for(i=n1; i<n2; i++){
 		*(a1+i) = 0;
 	}
@@ -41,9 +42,9 @@ int main(){
 		//Print each element out (to make sure things look right)
 		printf("%d ", *(a1+i));
 	}
+
 	printf("\n");
 	
 	//Done with array now, done with program :D
-	
 	return 0;
 }

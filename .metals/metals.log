@@ -1,0 +1,8 @@
+[0m2021.10.28 01:39:38 INFO  Started: Metals version 0.10.8 in workspace '/Users/osvaldo/OneDrive/Documents/[Main]/Github Projects/pl_assignments' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.28 01:39:48 INFO  time: initialize in 10s[0m
+[0m2021.10.28 01:39:59 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.28 01:39:59 WARN  no build tool detected in workspace '/Users/osvaldo/OneDrive/Documents/[Main]/Github Projects/pl_assignments'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.28 01:40:00 WARN  no build target for: /Users/osvaldo/OneDrive/Documents/[Main]/Github Projects/pl_assignments/A4/MedianFilter.scala[0m
+[0m2021.10.28 01:40:34 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.10.28 01:41:45 INFO  time: code lens generation in 1m44s[0m
+[0m2021.10.28 01:41:45 INFO  time: code lens generation in 1m44s[0m

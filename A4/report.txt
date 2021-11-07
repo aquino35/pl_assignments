@@ -1,0 +1,14 @@
+** This project was developed by Osvaldo Aquino**
+
+
+The MedianFilter.scala file, contains all the work to filter an image using the median filter process.
+There are two processes presented in the work, one of them present a serial median filter, and the other
+one presents a parallel median filter. The first one was implemented by using a 2D array, to examine an
+input image, called inputImage.jpg(located in the project path), it divides the picture in differents "windows"
+of size (windowWidth*WindowHeight) they can be of any value, as long as the number is not bigger of the input image.
+It goes trough several nested for loops, with the goal of filtering the image. On the other hand, the parallel Median 
+Filter, runs almost the same code except it does not uses a 2D array, it takes the input image, analyzes and it just 
+returns the input image. Both methods creates a file and it appears in the out file of the project structure. 
+Finally, the Future Scala class was used to compare the runtimes of both methods, the use of , and it can be
+determined by the runtimes the Parallel Median Filter run faster than the Serial median filter. 
+This can be said because of the test we ran and given that parallel processes tend to be faster then a serial one.

@@ -1,0 +1,42 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[info] Updated file /Users/osvaldo/OneDrive/Documents/[Main]/[1-2021-2022]/icom4036/Assignments/my_asignments/A4/project/build.properties: set sbt.version to 1.5.4
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.4 (Oracle Corporation Java 1.8.0_241)
+[debug] Load.defaultLoad until apply took 1642.46384ms
+[debug]                 Load.loadUnit: plugins took 474.233836ms
+[debug]                 Load.loadUnit: defsScala took 2.357249ms
+[debug] [Loading] Scanning directory /Users/osvaldo/OneDrive/Documents/[Main]/[1-2021-2022]/icom4036/Assignments/my_asignments/A4/project/project
+[debug]                   Load.loadUnit: mkEval took 65.653193ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/osvaldo/OneDrive/Documents/[Main]/[1-2021-2022]/icom4036/Assignments/my_asignments/A4/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 147.605044 ms
+[info] loading settings for project a4-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(a4-build-build) took 599.465107ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id a4-build-build, base: /Users/osvaldo/OneDrive/Documents/[Main]/[1-2021-2022]/icom4036/Assignments/my_asignments/A4/project/project, plugins: List(<none>))) took 820.799066ms
+[debug] [Loading] Done in /Users/osvaldo/OneDrive/Documents/[Main]/[1-2021-2022]/icom4036/Assignments/my_asignments/A4/project/project, returning: (a4-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 16478.354043ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 21.467774ms
+[debug]               Load.loadUnit(file:/Users/osvaldo/OneDrive/Documents/%5BMain%5D/%5B1-2021-2022%5D/icom4036/Assignments/my_asignments/A4/project/project/, ...) took 17057.684947ms
+[debug]             Load.apply: load took 18439.819646ms
+[debug]             Load.apply: resolveProjects took 187.834652ms
